@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(209, 209, 139);
+}
+
+#intro{
+    color: rgb(83, 83, 6);
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4vw;
+    display: none;
+    
+}
+#waha{
+    color: rgb(83, 83, 6);
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: none;
+    
+}
+
+#second{
+    color: rgb(83, 83, 6);
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: none;
+
+
+}
+
+#showButton{
+    font-size: 2vw;
+    background-color: rgb(191, 191, 84);
+    border-style: none;
+    border-radius: 4px;
+    color: rgb(83, 83, 6);
+}
+
+#showButton:hover{
+    background-color: rgb(140, 140, 44);
+    
+}
+
+#noButton{
+    font-size: 2vw;
+    background-color: rgb(191, 191, 84);
+    border-style: none;
+    border-radius: 4px;
+    display: none;
+    color: rgb(237, 237, 130);
+}
+
+#noButton2{
+    font-size: 2vw;
+    background-color: rgb(191, 191, 84);
+    border-style: none;
+    border-radius: 4px;
+    display: none;
+    color: rgb(237, 237, 130);
+    margin: 1vw 40vw;
+}
+
+#noButton2:hover{
+    background-color: rgb(140, 140, 44);
+}
+
+#yesButton{
+    font-size: 2vw;
+    background-color: rgb(191, 191, 84);
+    border-style: none;
+    border-radius: 4px;
+    display: none;
+    color: rgb(237, 237, 130);
+
+}
+
+.yesNoButtons{
+    display: flex;
+    gap: 1vw;
+    width: 20vw;
+    padding: 0.5vw;
+    margin: 0.5vh 40vw;
+}
+#yesButton:hover{
+    background-color: rgb(140, 140, 44);
+    transform: translateY(-5px);
+}
+
+#noButton:hover{
+    background-color: rgb(140, 140, 44);
+}
+
+#noText{
+    color: rgb(83, 83, 6);
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: none;
+    font-size: 2vw;
+
+}
+
+#sureText{
+    color: rgb(83, 83, 6);
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: none;
+    font-size: 2vw;
+
+}
+
+#submitButton{
+    font-size: 2vw;
+    background-color: rgb(191, 191, 84);
+    border-style: none;
+    border-radius: 4px;
+    color: rgb(83, 83, 6);
+}
+
+#submitButton:hover{
+    background-color: rgb(140, 140, 44);
+}
+
+#form{
+margin: 1vh 41vw;
+text-align: center;
+display: none;
+}
+
